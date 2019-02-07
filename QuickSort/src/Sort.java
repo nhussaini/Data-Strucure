@@ -2,6 +2,7 @@
  * Quick Sort is recursive
  * It is in-place
  * Time complexity=O(n^2) in worst case
+ * 					O(nlogn) in best/average case
  */
 public class Sort {
 	
