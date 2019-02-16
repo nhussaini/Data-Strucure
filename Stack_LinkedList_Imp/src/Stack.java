@@ -32,7 +32,12 @@ public class Stack {
 	
 	//function to return top element in the stack
 	public int peek() {
+		if(!isEmpty()) {
 		return top.data;
+		}else {
+			System.out.println("Stack is empty");
+			return -1;
+		}
 	}
 	
 	//function to show the elements of stack

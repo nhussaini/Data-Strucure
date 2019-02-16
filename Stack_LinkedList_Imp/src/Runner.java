@@ -8,11 +8,11 @@ public class Runner {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Stack stack=new Stack();
-		stack.push(5);
-		stack.push(9);
-		stack.push(1);
-		stack.push(10);
-		stack.pop();
+		//stack.push(5);
+		//stack.push(9);
+		//stack.push(1);
+		//stack.push(10);
+		//stack.pop();
 		System.out.println("Is stack empty? "+stack.isEmpty());
 		System.out.println("the peek element is: "+ stack.peek());
 		
